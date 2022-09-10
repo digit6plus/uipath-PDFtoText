@@ -1,0 +1,8 @@
+Hum 12
+SocSci 12
+Filipino 12
+English 12
+Research 2
+Phys 12_1
+Bio 12_1
+PEH 12_1

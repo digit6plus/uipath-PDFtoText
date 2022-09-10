@@ -1,0 +1,85 @@
+{
+  "name": "PDF to Text Conversion",
+  "description": "Image in PDF turn to text using OCR",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ActivitiesCustomWordClose": "[1.0.0]",
+    "ActivitiesDataTable": "[1.0.0]",
+    "AdvanceExcel": "[1.0.9]",
+    "AgilePoint.Workflow.Activities": "[1.0.2]",
+    "AutomationPill.DataTable.Activities": "[1.0.0]",
+    "Azure.Core": "[1.25.0]",
+    "bootstrap": "[5.2.0-beta1]",
+    "CsvHelper": "[16.0.0]",
+    "Deefinity.SAP.Activities": "[1.0.0]",
+    "ExcelNumberFormat": "[1.1.0]",
+    "GoogleSpreadsheet.Activities": "[1.0.7495.12930]",
+    "Microsoft.PowerShell.Native": "[7.3.0-preview.1]",
+    "Microsoft.VisualBasic": "[10.4.0-preview.18571.3]",
+    "MongoDB.Driver": "[2.17.1]",
+    "MongoDB.Driver.Core": "[2.17.1]",
+    "RestSharp": "[106.15.0]",
+    "Tesseract": "[4.1.1]",
+    "Tesseract-OCR": "[1.0.4]",
+    "UiPath.Cognitive.Activities": "[2.2.4]",
+    "UiPath.Database.Activities": "[1.6.1]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.ImageProcessing": "[22.4.1]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.OCR.Activities": "[3.8.0-preview]",
+    "UiPath.OCR.Contracts": "[2.12.0-preview]",
+    "UiPath.PDF.Activities": "[3.8.0-preview]",
+    "UiPath.Platform": "[22.7.0-preview]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]",
+    "UiPath.Vision": "[3.4.0-preview]",
+    "UiPath.Word.Activities": "[1.11.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "12f09b1a-5891-4fb4-917c-da24688d95b0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
